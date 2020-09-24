@@ -19,7 +19,10 @@ namespace Garage
         static void Main(string[] args)
         {
 
-            var gar1 = new Garage<int>(4);
+            Garagehandler gar1 = new Garagehandler(2);
+            Car car1 = new Car(10);
+            Console.WriteLine(car1.Nrwheels.ToString());
+
 
             
 

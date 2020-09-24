@@ -16,7 +16,7 @@ namespace Garage
         void RemoveVehicle(IVehicle v);
         List <IVehicle> GetAll();
     }
-    class Garagehandler:  IGaragehandler
+    public class Garagehandler:  IGaragehandler
     {
         private Garage<Vehicle> garage;
         private int vecount = 0;// 

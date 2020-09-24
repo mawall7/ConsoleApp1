@@ -68,8 +68,8 @@ namespace Garage
         {
             foreach (var item in vehicles) 
             {
-                if (Foundx(x) == true)
-                    item = null;
+                //if (Foundx(x) == true)
+                  //  item = null;
             }
             
             //(null, x);
